@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+}
+@media screen and (orientation: portrait){
+    .container{
+        border-radius: opx;
+    }
+}
+@media screen and (orientation: landscape){
+    .container{
+        border-radius: 20px;
+    }
+}
+
